@@ -1,0 +1,406 @@
+body {
+    font-family: "Gruppo";
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-item {
+  align-items: center;
+  display:inline;
+  justify-content: space-evenly;
+  margin-left: 140px;
+}
+
+.menu-link {
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link:hover{
+  opacity: 1;
+  cursor: pointer;
+  color: rgb(0, 80, 208);
+}
+
+.header-heading {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Gruppo";
+  padding-top: 100px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.header-text {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Rokkitt";
+}
+
+ 
+.header-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.header-link:hover {
+  border: 2px rgb(255, 255, 255);
+  opacity: 0.7;
+  cursor: pointer;
+  color: rgb(0, 80, 208);
+  border-color: rgb(0, 80, 208);
+}
+
+.header {
+  background: #cad2c5;
+  padding-top: 50px;
+  padding-bottom: 220px;
+  background: url(eeee.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .about-image-wrapper {
+    width: 30%;
+  }
+  
+  .about-image {
+    width: 88%;
+  }
+  
+  .about-content {
+    width: 50%;
+  }
+
+  .about-heading {
+    font-size: 30px;
+    font-family: "Gruppo";
+  }
+  
+  .about-text {
+    font-size: 19px;
+  }
+  
+  .hobby-section {
+    background:  #3a385a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hobby-heading {
+    font-size: 40px;
+    font-family: "Gruppo";
+    color: #fdfcfc;
+    text-align: center;
+  }
+
+.hobby-list{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobby-item {
+  width: 20%;
+  color: #cad2c5;
+  text-align: center;
+}
+
+.hobby-name {
+  color: #fff;
+  text-align: center;
+}
+
+.hobby-text {
+  color: #fff;
+  text-align: center;
+}
+
+.hobby-icon {
+ color: #cad2c5;
+}
+
+.images-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.images-heading {
+  font-size: 40px;
+  font-family: "Gruppo";
+  text-align: center;
+}
+
+.images-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.images-container {
+  margin-top: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* <figure> */
+.image-wrapper {
+  width: 30%;
+  margin: 0;
+}
+
+/* <img> */
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.quote-section {
+  background: #3a385a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quote {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote-text {
+  font-size: 26px;
+  font-family: "Philosopher";
+  color: #f1f1f1;
+}
+
+.quote-author {
+   color: #f1f1f1;
+}
+
+.contact-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.contact-heading {
+  font-size: 40px;
+  font-family: "Gruppo";
+  text-align: center;
+}
+
+.form {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.input {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.label {
+  padding-top: 10px;
+}
+
+.textarea {
+  padding-bottom: 20px;
+}
+
+.form-button {
+  background: #2e314a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  color: white;
+}
+
+.form-button:hover{
+  background-color: rgb(0, 80, 208);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.footer {
+  background:  #3a385a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cad2c5;
+}
+
+.social-links {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-item {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+
+/* RWD */
+@media (max-width: 800px) {
+  .about-section {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-image-wrapper {
+    width: 100%;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .hobby-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hobby-list {
+    flex-direction: column;
+  }
+
+  .hobby-item {
+    width: 100%;
+  }
+
+  .images-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .images-container {
+    flex-direction: column;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+
+  .quote {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-mobile .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-button {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    border: transparent;
+    color: white;
+  }
+  
+  .menu-button-open {
+    color: #fff;
+  }
+  
+  @media (min-width: 800px) {
+    .menu-button {
+      display: none;
+    }
+  }
+
+}
+
